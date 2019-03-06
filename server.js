@@ -20,9 +20,7 @@ mongoose.connect(
   process.env.MONGODB_URI || 
   // "mongodb://localhost/usersscorelist",
   "mongodb://usersscorelist:scorelist1@ds053708.mlab.com:53708/heroku_blkn1ggq",
- {
-   useNewUrlParser: true
- }
+
 );
 
 // Start the API server
