@@ -113,7 +113,7 @@ width: 70%;
 
 }
 .continue{
-   font: 72px/1 'Russo One', sans-serif;
+   /* font: 72px/1 'Russo One', sans-serif;
   letter-spacing: -4px;
   color: rgb(12, 24, 48);
   text-shadow: 4px 4px 5px red,6px 6px 7px rgba(0,159,227,.7), 8px 8px 9px rgba(255,237,0,1);
@@ -121,19 +121,20 @@ width: 70%;
 }
 .continue:hover{
   color: black 
-}
+} */
 
-   /* color:#2E3B55;
+   color:black;
   font-family: 'Luckiest Guy', cursive;
   font-size: 80px;
-  letter-spacing: .16em;
+  
+  letter-spacing: .1px;
   margin: .6em auto;
   text-align: center;
-  text-shadow: -5px 0px 0px rgb(255, 3, 104), 6px 0px 0px rgb(4, 255, 255), 4px -6px 0px #B3FEFE, -8px 5px 0px #F6ACCA;
+  text-shadow: -2px -4px 0px #69C9D0, 4px 2px 0px #EE1D52;
 }
 .continue:hover{
-  color: black 
-}  */
+  color: rgb(17, 16, 16)
+} 
 
 /* 
 .homeText h1, h2{
@@ -148,21 +149,22 @@ width: 70%;
 } */
 .homeText h1 , h2{
   text-transform:uppercase;
-  font: 72px/1 'Russo One', sans-serif;
+  /* font: 72px/1 'Russo One', sans-serif;
  letter-spacing: -4px;
   padding:30px;
   color: black;
-  text-shadow: 4px 4px 5px red,6px 6px 7px rgba(0,159,227,.7), 8px 8px 9px rgba(255,237,0,1);
+  text-shadow: 4px 4px 5px red,6px 6px 7px rgba(0,159,227,.7), 8px 8px 9px rgba(255,237,0,1); */
   /* text-shadow:2px 2px 0 rgba(227,6,19,.8), 3px 3px 0 rgba(255,237,0,1),2px 2px 0 rgba(0,159,227,.7) ; */ 
  
-  /* color: #030503;
+  color: black;
   font-family: 'Luckiest Guy', cursive;
   font-size: 80px;
-  letter-spacing: .16em;
+ 
+  letter-spacing: 1px;
   margin: .6em auto;
   text-align: center;
-  text-shadow: -5px 0px 0px rgb(255, 3, 104), 6px 0px 0px rgb(4, 255, 255), 4px -6px 0px #B3FEFE, -8px 5px 0px #F6ACCA;
-   */
+  text-shadow:  -2px -4px 0px #69C9D0, 4px 2px 0px #EE1D52;
+  
 }
 
 .wrap{
