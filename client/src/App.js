@@ -8,8 +8,8 @@ import Wrap  from "../src/components/wrap";
 
 
 firebase.initializeApp({
-  apiKey: "AIzaSyD0Nf7DI_LR20Xy9_uqCIYBMaFL_1AWaOM",
-  authDomain: "limitless-eyrie-23203.herokuapp.com",
+  apiKey: "AIzaSyBuiLxMFiSJImCr9v2JYP5AUM_IEbnU8QY",
+  authDomain: "memory-game-a1fa3.firebaseapp.com",
   databaseURL: "https://memory-game-a1fa3.firebaseio.com",
   projectId: "memory-game-a1fa3",
   storageBucket: "memory-game-a1fa3.appspot.com",
