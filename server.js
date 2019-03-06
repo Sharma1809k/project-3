@@ -19,7 +19,7 @@ app.use(routes);
 mongoose.connect(
   process.env.MONGODB_URI || 
   "mongodb://localhost:27017/usersscorelist",
-  // "mongodb://usersscorelist:scorelist1@ds053708.mlab.com:53708/heroku_blkn1ggq",
+ 
 
 );
 
