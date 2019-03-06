@@ -9,7 +9,11 @@ import Wrap  from "../src/components/wrap";
 
 firebase.initializeApp({
   apiKey: "AIzaSyD0Nf7DI_LR20Xy9_uqCIYBMaFL_1AWaOM",
- 
+  authDomain: "memory-game-a1fa3.firebaseapp.com",
+  databaseURL: "https://memory-game-a1fa3.firebaseio.com",
+  projectId: "memory-game-a1fa3",
+  storageBucket: "memory-game-a1fa3.appspot.com",
+  messagingSenderId: "264407920543"
 })
 
 class App extends Component {
