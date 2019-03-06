@@ -21,7 +21,13 @@
     "eject": "react-scripts eject"
   },
   "engines": {
-    "node":"8.11.4",
-    "npm":"5.6.0"
-  }
+    "node": "8.11.4",
+    "npm": "5.6.0"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }
