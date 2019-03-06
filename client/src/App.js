@@ -9,7 +9,7 @@ import Wrap  from "../src/components/wrap";
 
 firebase.initializeApp({
   apiKey: "AIzaSyD0Nf7DI_LR20Xy9_uqCIYBMaFL_1AWaOM",
-  authDomain: "my-1st-firebase-user-auth.firebaseapp.com",
+ 
 })
 
 class App extends Component {
