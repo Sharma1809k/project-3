@@ -6,7 +6,7 @@
   -o-background-size: cover;
   background-size: cover;
   background-repeat: repeat;
-  height:700px
+  height:700px;
 }
 .firebaseui-card-content{
   margin-top: 180px
@@ -59,6 +59,44 @@ marquee{
 }
 h1{ color: blue;
 
+}
+
+.scroll {
+  
+  margin-top: 110px;
+  margin-right: 10px;
+  right: 0px;
+ 
+border-color: red;
+  padding: 10px;
+  position: absolute;
+  overflow: hidden;
+  height: 650px;
+  width: 500px;
+  /* border: 1px solid orange; */
+}
+.scroll a {
+  
+  left:25%;
+  right: 25%;
+
+
+  position: absolute;
+
+  margin: 0;
+  
+  line-height: 50px;
+  white-space: nowrap;
+  animation: marquee 20s linear infinite;
+}
+
+@keyframes marquee {
+  0% { transform: translateY(100%); }
+  100% { transform: translateY(-100%); }
+}
+
+.topScores{
+  color:blue;
 }
 
 a{
@@ -147,7 +185,7 @@ width: 70%;
   color: black;
   text-shadow: 3px 3px 0 #E79C10, -3px -3px 0 #D53A33 , -2px -2px 0 #1d9099;
 } */
-.homeText h1 , h2{
+.homeText .text , .text2{
   text-transform:uppercase;
   /* font: 72px/1 'Russo One', sans-serif;
  letter-spacing: -4px;
@@ -189,7 +227,14 @@ width: 70%;
 		background-position: 0% 50%
 	}
 }
-
+.spider{
+  position: absolute;
+  margin-top: 100px;
+  left: 0px;
+  width: 400px;
+ 
+  padding: 10px;
+}
 .homeWrap{
   height: 700px;
 }

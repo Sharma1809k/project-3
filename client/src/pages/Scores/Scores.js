@@ -113,34 +113,39 @@ class Scores extends Component {
         </Toolbar>
       </AppBar>
     </div>
-    <Wr>
+    
         
-          {this.state.scores.length ? (
-            <List>
-              {this.state.scores.map(score => {
-                return (
-
-                  // <marquee behavior="scroll" direction="up" scrollamount="1">
-                  <marquee behavior="scroll" direction="up" scrollamount="1">
+    <img className = "spider" src = "./spider.jpg" />
+    
+     
+      
+    <div className="scroll">
+      {this.state.scores.length ? (
+        
+           <a>
+            {this.state.scores.map(score => {
+              return (
+               
+                
+                  <ul className= "topScores">
+                   <h2> <strong>
+                      {score.username} {score.score}
+                    </strong></h2>
                   
-                      <strong>
-                        
-                        {score.username} {score.score}
-                      </strong>
-                 
-
-                   </marquee>
-                   
-                );
-              })}
-            </List>
-          ) : (
-              <h1>No Results to Display</h1>
-            )}
+                  </ul>
+                  
+               
+              );
+            })}
+            </a>
+        
+      ) : (
+          <h1>No Results to Display</h1>
+        )}
+        </div>
  
-   
- </Wr>
       </Wrapper>
+        
     );
   }
 }

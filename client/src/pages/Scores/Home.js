@@ -44,9 +44,9 @@ function Home() {
 
   <div className = "homeText">
           {/* <img className = "profile" alt="profile" src={firebase.auth().currentUser.photoURL}/> */}
-            <h1>Welcome {firebase.auth().currentUser.displayName} 
+            <h1 className= "text">Welcome {firebase.auth().currentUser.displayName} 
             </h1>
-            <h2>Click on  <a className= "continue" href="/Game">CONTINUE</a> to play the game!!!</h2>
+            <h2 className= "text2">Click on  <a className= "continue" href="/Game">CONTINUE</a> to play the game!!!</h2>
             </div>
             </HomeWrap>
             
